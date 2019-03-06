@@ -77,6 +77,7 @@ class FirstViewController: UIViewController {
         self.present(alert, animated: true)
     }
     
+    //User Alert type for Input fields
     func showInputAlert()
     {
         let alert = UIAlertController(title: "What's your name?", message: nil, preferredStyle: .alert)
