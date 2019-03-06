@@ -2,5 +2,5 @@
 
 ## Alert Controller Example
 ## Switch
-## Lable
+## Label
 ## Data Entry using Alert Controller
