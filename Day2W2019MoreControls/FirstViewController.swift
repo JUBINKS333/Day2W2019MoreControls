@@ -105,5 +105,14 @@ class FirstViewController: UIViewController {
         
         self.present(alert, animated: true)
     }
+    
+    //Navigate to next VC
+    @IBAction func goToNextScreen(_ sender: UIButton)
+    {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let lionVC = sb.instantiateViewController(withIdentifier: "LionVC") as! LionViewController
+        
+        self.present(lionVC, animated: true)
+    }
 }
 

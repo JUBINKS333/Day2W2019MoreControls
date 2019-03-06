@@ -14,6 +14,8 @@
 		075C2586222F3BC100C96506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075C2584222F3BC100C96506 /* LaunchScreen.storyboard */; };
 		075C258E222F4FC400C96506 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075C258D222F4FC400C96506 /* ImageViewController.swift */; };
 		075C2590222F505100C96506 /* gorilla.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C258F222F505100C96506 /* gorilla.png */; };
+		075C2592222F510500C96506 /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = 075C2591222F510500C96506 /* lion.png */; };
+		075C2594222F602F00C96506 /* LionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075C2593222F602F00C96506 /* LionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		075C2587222F3BC100C96506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		075C258D222F4FC400C96506 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		075C258F222F505100C96506 /* gorilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorilla.png; sourceTree = "<group>"; };
+		075C2591222F510500C96506 /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
+		075C2593222F602F00C96506 /* LionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +67,11 @@
 				075C257F222F3BC000C96506 /* Main.storyboard */,
 				075C2582222F3BC100C96506 /* Assets.xcassets */,
 				075C258F222F505100C96506 /* gorilla.png */,
+				075C2591222F510500C96506 /* lion.png */,
 				075C2584222F3BC100C96506 /* LaunchScreen.storyboard */,
 				075C2587222F3BC100C96506 /* Info.plist */,
 				075C258D222F4FC400C96506 /* ImageViewController.swift */,
+				075C2593222F602F00C96506 /* LionViewController.swift */,
 			);
 			path = Day2W2019MoreControls;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				075C2590222F505100C96506 /* gorilla.png in Resources */,
+				075C2592222F510500C96506 /* lion.png in Resources */,
 				075C2586222F3BC100C96506 /* LaunchScreen.storyboard in Resources */,
 				075C2583222F3BC100C96506 /* Assets.xcassets in Resources */,
 				075C2581222F3BC000C96506 /* Main.storyboard in Resources */,
@@ -142,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075C2594222F602F00C96506 /* LionViewController.swift in Sources */,
 				075C257E222F3BC000C96506 /* FirstViewController.swift in Sources */,
 				075C258E222F4FC400C96506 /* ImageViewController.swift in Sources */,
 				075C257C222F3BC000C96506 /* AppDelegate.swift in Sources */,
